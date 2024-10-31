@@ -69,7 +69,7 @@
 
 	function updateBalloons(ctx: CanvasRenderingContext2D) {
 		frames += 1;
-		if (frames % 37 === 0 && balloons.length < 37) {
+		if (frames % 300 === 0 && balloons.length < 300) {
 			balloons.push(new Balloon());
 		}
 		ctx.clearRect(0, 0, cw, ch);

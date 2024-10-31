@@ -5,7 +5,7 @@
 	let context: CanvasRenderingContext2D;
 	let w: number;
 	let h: number;
-	const NUM_CONFETTI = 350;
+	const NUM_CONFETTI = 100;
 	const COLORS = [
 		[85, 71, 106],
 		[174, 61, 99],
